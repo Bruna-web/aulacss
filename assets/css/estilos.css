@@ -1,0 +1,12 @@
+section{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: azure;
+    font-size: 40px;
+    text-align: center;
+}
+article{
+width: 800px;
+background-color: aqua;
+}
