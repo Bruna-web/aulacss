@@ -1,0 +1,62 @@
+.retangulo{
+    width: 1000px; 
+    height: 100px;
+    border: 1px solid rgb(5, 0, 16);
+    color: black;
+    margin: 2px;
+}
+.bg-ret01{
+    background-color: rgb(213, 106, 24);
+}
+
+.retangulo2{
+    display: inline-block;
+    width: 250px; 
+    height: 300px;
+    border: 1px solid rgb(5, 0, 16);
+    color: black;
+    margin: 2px;
+}
+.bg-ret02{
+    background-color: rgb(114, 234, 27);
+}
+
+.retangulo3{
+    display: inline-block;
+    width: 500px; 
+    height: 300px;
+    border: 1px solid rgb(5, 0, 16);
+    color: black;
+    margin: 2px;
+}
+.bg-ret03{
+    background-color: rgb(237, 255, 104);
+}
+
+.retangulo4{
+    display: inline-block;
+    width: 166px; 
+    height: 300px;
+    border: 1px solid rgb(5, 0, 16);
+    color: black;
+    margin: 2px;
+}
+.bg-ret04{
+    background-color: rgb(13, 94, 165);
+}
+
+.retangulo5{
+    display: inline-block;
+    width: 1000px; 
+    height: 100px;
+    border: 1px solid rgb(5, 0, 16);
+    color: black;
+    margin: 2px;
+}
+.bg-ret05{
+    background-color: rgb(86, 84, 82);
+}
+
+
+    
+    
