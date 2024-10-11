@@ -7,32 +7,45 @@
     <link rel="stylesheet" href="assets/css/estilosAT.css">
 </head>
 <body>
-    
     <nav>
-        <a href="index.html"> Home </a>|
-         <a href="curso.html">Curso </a>|
-         <a href="contato.html">Contato</a>
-     </nav>
+        <a href="index.html">Home</a>
+        <a href="curso.html">Curso</a>
+        <a href="contato.html">Contato</a>
+    </nav>
 
-     
-    <section><h1>CONTATO</h1></section>
-    <table>
-        <tr>
-            <td><img src="imagens/icons8-whatsapp-48.png" > <br></td>
-            <td><h5>(81) 9. 0000-0000</h5></td>
-        </tr>
+    <div class="marquee">
+        <marquee behavior="" direction="">
+        <img src="imagens/ete-logo1.webp" alt="Logo ETE">
+    </marquee>
+    </div>
 
-        <tr>
-            <td><img src="imagens/icons8-instagram-48.png" alt=""> <br></td>
-            <td>@ete</td>
-        </tr>
+    <section class="contact-section">
+        <h1>Entre em Contato</h1>
+        <p>Estamos aqui para ajudar! Preencha o formulário abaixo ou entre em contato pelos nossos canais.</p>
+        
+        <div class="contact-info">
+            <h2>Informações de Contato</h2>
+            <p><strong>Email:</strong> contato@ete.com.br</p>
+            <p><strong>Telefone:</strong> (81) 99619-6462</p>
+            <p><strong>Endereço:</strong> Rua 17 ,Jacaré , 44, Feira Nova, PE</p>
+        </div>
 
-        <tr>
-            <td><img src="imagens/icons8-rotary-phone-64.png" alt=""></td>
-            <td>0000-0000</td>
-        </tr>
+        <form class="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-</table>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ETE. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
